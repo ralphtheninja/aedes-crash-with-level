@@ -1,0 +1,9 @@
+{
+  "name": "aedes-crash-with-level",
+  "dependencies": {
+    "aedes": "^0.42.5",
+    "aedes-persistence-level": "^6.0.1",
+    "level": "^6.0.1",
+    "mqtt": "^4.2.1"
+  }
+}
