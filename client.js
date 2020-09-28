@@ -6,4 +6,8 @@ client.on('message', (topic, message) => {
 })
 client.subscribe('foo')
 
+// crashes the broker
 client.publish('foo', 'bar', { qos: 2 })
+
+// does not crash the broker
+// client.publish('foo', 'bar', { qos: 1 })
